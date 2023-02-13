@@ -1,0 +1,25 @@
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+
+.list-group-item:hover {
+	background-color: rgb(223, 238, 250);
+}
+
+.save:hover {
+	color: green;
+}
+.edit:hover {
+	color: green;
+}
+.view:hover {
+	color: dodgerblue;
+}
+.delete:hover {
+	color: red;
+}
